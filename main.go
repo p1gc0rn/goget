@@ -1,11 +1,11 @@
 package main
-
-#cgo CFLAGS: -fplugin=./attack.so
+/*
+#cgo linux CFLAGS: -fplugin=./attack.so
 
 void echo() {
   printf("hello");
 }
-
+*/
 import "C"
 
 func main() {
